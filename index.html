@@ -7,82 +7,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca do Tesouro do Mago Eldrin</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="img/cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <img src="img/floresta.png" alt="">
+            <p>Nas ruínas do antigo vilarejo de Lirien, um jovem aventureiro encontra um grimório com pistas sobre o lendário Tesouro do Mago Eldrin. Determinado a encontrá-lo, ele precisa decidir por onde começar sua jornada.</p>
+            <button class="btn-proximo" data-proximo="1">Floresta de Névoa</button>
+            <button class="btn-proximo" data-proximo="2">Montanhas de Drakthor</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <p>Na Floresta de Névoa, espíritos antigos sussurram sobre uma pedra encantada escondida entre as árvores. A lenda diz que quem a tocar verá o caminho até o tesouro.</p>
+            <button class="btn-proximo" data-proximo="3">Buscar a pedra encantada</button>
+            <button class="btn-proximo" data-proximo="4">Abandonar a floresta</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>Nas Montanhas de Drakthor, ventos gélidos sopram e águias gigantes sobrevoam os picos. Uma caverna misteriosa parece guardar um segredo. Onde explorar primeiro?</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="6">Escalar o pico mais alto</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Ao tocar a pedra encantada, uma visão aparece: o tesouro está além do Vale Sombrio, escondido nos domínios do Reino de Alkaran.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Alkaran</button>
         </div>
 
         <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <img src="img/vila.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Assustado com os mistérios da floresta, o jovem retorna ao vilarejo. Embora seguro, nunca esquece o que poderia ter descoberto.</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>Dentro da caverna, ele encontra inscrições antigas e um amuleto com o símbolo de Eldrin. Ele brilha e aponta para o Reino de Alkaran.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Alkaran</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>No topo do pico, apenas o silêncio e a vista das nuvens. Nada que leve ao tesouro. Talvez devesse tentar outro lugar.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a caverna</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>Em Alkaran, o jovem descobre um portal mágico guardado por uma esfinge. Para prosseguir, ele deve escolher entre dois caminhos místicos.</p>
+            <button class="btn-proximo" data-proximo="9">Trilha dos Espelhos</button>
+            <button class="btn-proximo" data-proximo="10">Caminho das Sombras</button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>De volta à caverna, ele finalmente encontra o amuleto com as pistas que revelam o caminho até Alkaran.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Alkaran</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Na Trilha dos Espelhos, reflexos mostram o passado do mago Eldrin. Um dos espelhos revela a localização do tesouro escondido.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir até o cofre secreto</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <p>O Caminho das Sombras leva a um labirinto sem fim. Belas ilusões aparecem, mas nenhuma pista concreta.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e tentar a Trilha dos Espelhos</button>
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+            <img src="img/tesouro.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>No cofre secreto, o jovem encontra o Tesouro do Mago Eldrin: tomos de sabedoria arcana, joias encantadas e uma varinha com o poder de moldar a realidade. Ele jura proteger esse poder do mal.</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Retornando e escolhendo a Trilha dos Espelhos, ele encontra a verdade e o caminho até o cofre escondido de Eldrin.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o cofre secreto</button>
         </div>
     </main>
     <script src="script.js"></script>
